@@ -702,13 +702,6 @@
     
 }
 @media(max-width:520px) and (min-width:375px){
-    #educationcontainer{
-        position: relative;
-        display:block;
-        width: 100%;
-        max-width: 100%;
-        height: 600px;
-    }
     #educationcontainer h1{
         position:relative;
         text-align: center;
@@ -830,7 +823,7 @@
         display:block;
         width: 100%;
         max-width: 100%;
-        height: 630px;
+        height: 650px;
         background-image: url('../img/pexels-christina-morillo-1181421.jpg');
         background-size: cover;
     }
@@ -876,109 +869,35 @@
     }
 }
 @media(max-width:320px) and (min-width:280px){
-    #educationcontainer{
+    #educationspan{
+    left:-3%;
+    
+    }
+     #educationcontainer{
         position: relative;
         display:block;
         width: 100%;
         max-width: 100%;
-        height: 800px;
-    }
-    #educationcontainer h1{
-        position:relative;
-        text-align: center;
-        font-size: 0.8rem;
+        height: 700px;
+        background-image: url('../img/pexels-christina-morillo-1181421.jpg');
+        background-size: cover;
     }
     #educationbody{
         position: relative;
         display:block;
         margin: auto;
+        top:-2%;
         width: 100%;
-        max-width: 100%;
-        height: 100%;
-        background-color: rgb(127, 149, 153);
+        max-width: 95%;
+        height: 85%;
         border-radius: 5px;
+        background-color: transparent;
+    }
+    #educationcontainer h1{
+        color:black;
+        top:-4%;
     }
     #education{
-        position: relative;
-        display:block;
-        width:100%;
-        max-width:100%;
-        height: 60%;
+        height: 55%;
     }
-    #experience{
-        position: relative;
-        display:block;
-        width:100%;
-        max-width:100%;
-        height: 40%;
-    }
-    .bx-edit-alt, .bxs-shopping-bag{
-        position: relative;
-        top:5%;
-        left:9%;
-        font-size: 1.5rem;
-        border-radius: 50%;
-        color: white;
-        margin-right:30px;
-    }
-    #educationspan{
-        position: relative;
-        font-size: 0.9rem;
-        font-weight: 700;
-        top:13px;
-        color: white;
-    }
-    #infocontainer{
-        position:relative;
-        top:2%;
-        left:8.5%;
-        width:100%;
-        max-width:80%;
-        height: 80%;
-        background-color: rgb(168, 168, 168, 0.3);
-        backdrop-filter: blur();
-        border-radius:5px;
-    }
-    #educationyear{
-        position:relative;
-        color: white;
-        margin:none;
-        top:5%;
-        left:9%;
-        font-weight: 600;
-        border-left: 2px solid white;
-        height:50px;
-        padding-left: 5px;
-    }
-    #experienceyear{
-        position:relative;
-        color: white;
-        margin:none;
-        top:5%;
-        left:9%;
-        font-weight: 600;
-        border-left: 2px solid white;
-        height:30px;
-        padding-left: 5px;
-    }
-    #degreetext{
-        position:relative;
-        color: white;
-        width: 100%;
-        max-width: 90%;
-        left:0px;
-        margin:none;
-        top:0%;
-        left:8%;
-        font-weight: 600;
-    }
-    #university{
-        position: relative;
-        width: 100%;
-        max-width: 80%;
-        text-align: justify;
-        color:white;
-        left:8%;
-    }
-    
 }

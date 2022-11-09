@@ -733,12 +733,12 @@
         display: block;
         width: 100%;
         max-width: 100%;
-        height: 1350px;
+        height: 1300px;
         border:none;
     }
     #aboutme a{
         position: relative;
-        left:32%;
+        left:34%;
         top:10%;
         font-weight: 800;
         font-size:1.2rem;
@@ -748,8 +748,8 @@
         position:relative;
         top:2%;
         width: 100%;
-        max-width: 65%;
-        height: 25%;
+        max-width: 50%;
+        height: 30%;
         margin:auto;
         background-color: #b0d5e6;
     }
@@ -867,7 +867,7 @@
         display: block;
         width: 100%;
         max-width: 100%;
-        height: 1100px;
+        height: 1340px;
         border:none;
     }
     #aboutme a{
@@ -884,7 +884,7 @@
         top:2%;
         width: 100%;
         max-width: 65%;
-        height: 20%;
+        height: 28%;
         margin:auto;
        background-color: #b0d5e6;
 
@@ -927,139 +927,6 @@
         font-weight: 700;
         font-size: 1rem;
         padding-right: 4%;
-        margin:auto;
-        color:rgb(19, 89, 241);
-    }
-    #bodyme{
-        position: relative;
-        top:4%;
-        width: 100%;
-        max-width: 85%;
-        margin:auto;
-        font-size: .9rem;
-        line-height: 35px;
-        text-align: justify;
-    }
-    #demo{
-        position: relative;
-        display: block;
-        top:5%;
-        width: 100%;
-        max-width: 90%;
-        margin:auto;
-        height:20%;
-    }
-    #demo div{
-        position: relative;
-        display: block;
-        top:5%;
-        width: 100%;
-        max-width:100%;
-        height:50%;
-    }
-    .bxs-envelope, .bx-current-location, .bxs-phone-call, .bx-calendar{
-        position:relative;
-        top:10%;
-        left:0%;
-        font-size: 1.4rem;
-        margin-right: 5px;
-    }
-   h1{
-    position: relative;
-    top: -12px;
-    color:grey;
-    margin-right: 7px;
-   }
-    .democol1{
-        position: relative;
-        display: flex;
-        width:100%;
-        max-width: 100%;
-        height:50%;
-    }
-    .democol1 p{
-        position: relative;
-        top:-6.5px;
-        font-size: 0.9rem;
-    }
-    .democol2{
-        position: relative;
-        display: flex;
-        width:100%;
-        max-width: 100%;
-        height:50%;
-    }
-    .democol2 p{
-        position: relative;
-        top:-6.5px;
-    }
-}
-@media(max-width:320px) and (min-width:280px){
-    html{
-        font-size: 14px;
-    }
-    #aboutme{
-        position: relative;
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        height: 1700px;
-        border:none;
-    }
-    #aboutme a{
-        position: relative;
-        left:23%;
-        top:6%;
-        font-weight: 800;
-        font-size:1.2rem;
-    }
-    #img{
-        position:relative;
-        top:2%;
-        width: 100%;
-        max-width: 85%;
-        height: 35%;
-        margin:auto;
-        border: 1px solid grey;
-
-    }
-    #img img{
-        position: relative;
-        top:10%;
-        left:2%;
-        width: 100%;
-        max-width: 95%;
-        height: 68%;
-    }
-    #me{
-        position:relative;
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        height: 76%;
-    }
-    #mehead{
-        position: relative;
-        text-align: center;
-        width: 100%;
-        max-width: 25%;
-        top:4%;
-        padding:5px;
-        font-size: 1rem;
-        font-weight: 700;
-        margin:auto;
-        margin-bottom: 12%;
-        border-bottom: 3px solid rgb(19, 89, 241);
-    }
-    #headingme{
-        position: relative;
-        top:2%;
-        left:2%;
-        text-align: center;
-        width: 100%;
-        max-width: 95%;
-        font-weight: 700;
-        font-size: 1.2rem;
         margin:auto;
         color:rgb(19, 89, 241);
     }

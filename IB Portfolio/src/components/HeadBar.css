@@ -906,7 +906,7 @@
         position: relative;
         display:flex;
         top:20%;
-        left:2%;
+        margin-left: 10%;
         width:100%;
         max-width: 50%;
         height: 9%;
@@ -920,7 +920,7 @@
         list-style: none;
     }
     #medialink ul li{
-        margin-right:25px;
+        margin-right:15px;
     }
     .bxl-facebook, .bxl-twitter, .bxl-linkedin-square, .bxl-github{
         position: relative;
@@ -929,15 +929,6 @@
         font-size: 1.4rem;
         padding:2px;
         color: none;
-    }
-    .bxl-facebook:hover{
-        color: #1773ea;
-    }
-    .bxl-twitter:hover{
-        color:#1c96e9;
-    }
-    .bxl-linkedin-square:hover{
-        color:#0a63bc;
     }
     #background-effect1{
         position:absolute;
@@ -974,7 +965,7 @@
         font-size: 1rem;
     }
 }
-@media (max-width:389px) and (min-width:319px){
+@media (max-width:389px) and (min-width:320px){
     html{
         font-size: 14px;
     }
@@ -1163,117 +1154,5 @@
         height: 50%;
         background-color:  rgb(160, 216, 233,0.3);
         z-index: 0;
-    }
-}
-@media (max-width:320px) and (min-width:280px){
-    html{
-        font-size: 14px;
-    }
-    a{
-        text-decoration: none;
-        color: rgb(161, 115, 15);
-    }
-    a:hover{
-        color:black
-    }
-    #headercontainer{
-        position: relative;
-        width:100%;
-        max-width:100%;
-        height:200px;
-        background-image: url(../../../Newfolder54/20221006_033526.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    ul{
-        position: relative;
-        top:10px;
-        width: 100%;
-        left:58%;
-        max-width: 40%;
-        display: flex;
-    }
-    li{
-        list-style:none;
-        display: none;
-        margin-right:30px;
-        font-weight: 600;
-    }
-    .shortinfo{
-        position: relative;
-        left:3%;
-        top:6%;
-        width: 100%;
-        max-width: 90%;
-        height: 70%;
-    }
-    .heading{
-        position: relative;
-        width: 100%;
-        padding:5px;
-        text-align: center;
-        border-radius: 5px;
-        max-width: 20%;
-        left:5%;
-        top:0%;
-        font-size: 0.rem;
-        margin-bottom: 10px;
-        font-weight: 600;
-        color:white;
-        background-color: rgb(19, 89, 241);
-    }
-    #headbody{
-        position: relative;
-        width: 100%;
-        max-width: 95%;
-        left:5%;
-        line-height: 18px;
-        font-size: 0.9rem;
-        text-align: justify;
-        color: white;
-    }
-    #headbody span{
-       font-size: .9rem;
-       font-weight: 700;
-    }
-    #medialink{
-        position: relative;
-        display:flex;
-        top:15%;
-        left:2%;
-        width:100%;
-        max-width: 50%;
-        height: 9%;
-    }
-    #medialink ul{
-        position: relative;
-        display: flex;
-        width: 100%;
-        max-width: 100%;
-        height: 100%;
-        list-style: none;
-    }
-    #medialink ul li{
-        margin-right:25px;
-    }
-    .bxl-facebook, .bxl-twitter, .bxl-linkedin-square, .bxl-github{
-        position: relative;
-        left: -40px;
-        top:5%;
-        font-size: 1rem;
-        padding:2px;
-        color:none;
-    }
-    .bxl-github:hover{
-        color: black;
-    }
-    .bxl-facebook:hover{
-        color: #1773ea;
-    }
-    .bxl-twitter:hover{
-        color:#1c96e9;
-    }
-    .bxl-linkedin-square:hover{
-        color:#0a63bc;
     }
 }

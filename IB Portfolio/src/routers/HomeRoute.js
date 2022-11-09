@@ -5,7 +5,7 @@ function HomeRoute(){
 
     return(
         <Routes>
-            <Route path="/index.html" element={<HomePage/>} />
+            <Route path="/" element={<HomePage/>} />
         </Routes>
     )
 }
